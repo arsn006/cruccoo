@@ -48,5 +48,5 @@ class Predict_SVM:
         
 
         # wavを全て削除
-         #for filename in  files:
-          #os.remove(filename)
+        for filename in  files:
+            os.remove(filename)
