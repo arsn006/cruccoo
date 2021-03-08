@@ -9,20 +9,7 @@ import led
 host = 'localhost'
 port = 10500
 duration = 1    # 何秒間動作を続けるか
-'''
-def shoot(fn):
-    # カメラ初期化
-    with picamera.PiCamera() as camera:
-        # 解像度の設定
-        camera.resolution = (1024, 768)
-        # 撮影の準備
-        camera.start_preview()
-        # 準備している間、少し待機する
-        time.sleep(2)
-        # 撮影して指定したファイル名で保存する
-        camera.capture(fn)
-        print('complete')
-'''
+
 # Juliusに接続する準備
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((host, port))
