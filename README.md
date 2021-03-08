@@ -27,7 +27,8 @@ https://youtu.be/aK80Cryjd7w
 ## 【使用方法】
 - RaspberryPiにproject/robotフォルダ以下をhome/pi/にコピーする
 - Juliusデータをhome/pi/にコピーする
-音声認識部分はJulius( https://julius.osdn.jp/ )に辞書登録をしています（juliusデータは重いので別途アップ）
+音声認識部分はJulius( https://julius.osdn.jp/ )に辞書登録をしています<br>
+Juliusデータは重いのでgoogle driveにアップしています（ https://drive.google.com/drive/folders/1NBZqTlNn5-5eoQCQqIcY3KsC9ZfADz7s?usp=sharing ）
 - ターミナルでコマンド実行　julius -C ~/julius/julius-kit/dictation-kit-v4.4/am-gmm.jconf -nostrip -rejectshort 1000 -gram ~/julius/control/control -input mic -module -record ~/robot/wav/
 - ターミナルをもう一つ立ち上げ、コマンド実行　python main.py
 
