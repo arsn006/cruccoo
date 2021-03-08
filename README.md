@@ -29,7 +29,7 @@ https://youtu.be/aK80Cryjd7w
 - Juliusデータをhome/pi/にコピーする
 音声認識部分はJulius( https://julius.osdn.jp/ )に辞書登録をしています（juliusデータは重いので別途アップ）
 - ターミナルでコマンド実行　julius -C ~/julius/julius-kit/dictation-kit-v4.4/am-gmm.jconf -nostrip -rejectshort 1000 -gram ~/julius/control/control -input mic -module -record ~/robot/wav/
-- ターミナルをもう一つ立ち上げ、コマンド実装　python main.py
+- ターミナルをもう一つ立ち上げ、コマンド実行　python main.py
 
 ## 【データ構成】
 ├── README.md<br>
